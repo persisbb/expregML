@@ -8,6 +8,6 @@
 *	Also evaluated our model on test set and applied real time prediction.
 
 #### Various Approaches to Improve Training: 
-* 1.Performing face detection and cropping face images in our training dataset.  Although we have closely cropped faces in our dataset, they are very noisy.   By filtering out all images which were not detected by face detection algorithm we can make our model more robust.
-* 2. Increase Number of phases and Decrease number of epochs per phase while training. For example:  You can train a model using a phase 1 with 6 epochs repeated by phase 2 with 4 epochs for 2 times. 
-* 3. Try out a better version of EfficientNet. There are even better versions of EfficientNet such as B3 to B7. We have used EfficientNetB2 just to keep it less computationally intensive. So that it can be executed even on Low hardware specification. 
+*1.Performing face detection and cropping face images in our training dataset.  Although we have closely cropped faces in our dataset, they are very noisy.   By filtering out all images which were not detected by face detection algorithm we can make our model more robust.
+*2. Increase Number of phases and Decrease number of epochs per phase while training. For example:  You can train a model using a phase 1 with 6 epochs repeated by phase 2 with 4 epochs for 2 times. 
+*3. Try out a better version of EfficientNet. There are even better versions of EfficientNet such as B3 to B7. We have used EfficientNetB2 just to keep it less computationally intensive. So that it can be executed even on Low hardware specification. 
