@@ -1,5 +1,5 @@
 
-Here are few insights and learnings from the course and project:
+#Here are few insights and learnings from the course and project:
 •	Learned about Google Colab and GPUs and How we can utilize these Resources for solving High level Computational Problems where Datasets consist of Images, Text, and Videos.
 •	Learned how to build convolutional neural networks on Google Colab and re use the trained objects in our local machine to perform real time predictions.
 •	Got introduced to Open CV and Dlib and created a model that can detect different expressions in a face images which are black and white.
